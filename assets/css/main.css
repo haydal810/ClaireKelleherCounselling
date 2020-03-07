@@ -83,12 +83,13 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #23141f;
-		background-attachment: scroll,							fixed;
-		background-image: url("images/overlay1.png"), url("../../images/bg.jpg");
-		background-position: top left,						top center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
+		background-image: url('../../images/StockSnap_U53WYVF6H5.jpg');
+    	background-size: cover;
+    	width: 100%;
+    	height: 100%;
+    	position: relative;
+    	/* overflow: hidden; */
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
