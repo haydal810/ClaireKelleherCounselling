@@ -23,7 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2065,6 +2067,18 @@ input, select, textarea {
 			.image.fit img {
 				width: 100%;
 			}
+
+		.image_profile_pic {
+				display: block;
+				margin: 0 0 2em 0;
+				width: 50%;
+				
+			}
+	
+			.image_profile_pic img {
+					width: 100%;
+					text-align: center;
+				}	
 
 /* List */
 
