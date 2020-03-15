@@ -73,6 +73,15 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/* Customised CSS by The Web Lab */
+
+.Profile_image {
+	text-align: center;
+}
+
+.center_image {
+	text-align: center;
+}
 
 /* Basic */
 
@@ -140,6 +149,9 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+	}
+	p.center_image{
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2072,12 +2084,13 @@ input, select, textarea {
 				display: block;
 				margin: 0 0 2em 0;
 				width: 50%;
+				text-align: center;
 				
 			}
 	
 			.image_profile_pic img {
 					width: 100%;
-					text-align: center;
+					/* text-align: center; */
 					
 				}	
 
